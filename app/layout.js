@@ -1,7 +1,9 @@
+import Sidebar from "@/components/sidebar";
 import "./globals.css";
-import { Manrope } from "next/font/google";
+import { Inter } from "next/font/google";
+import Searchbox from "@/components/searchbox";
 
-const manrope = Manrope();
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "TUFF",
@@ -11,7 +13,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className}`}>
+        <section className="flex w-screen">
+          <Sidebar />
+          <section className="w-full flex flex-col ml-15">
+            <Searchbox />
+            {/* CONTINUE FROM HERE */}
+
+            {children}
+          </section>
+        </section>
+      </body>
     </html>
   );
 }
