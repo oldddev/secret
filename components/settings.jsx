@@ -9,9 +9,9 @@ import { FaDoorOpen } from "react-icons/fa";
 export default function Settings() {
   const [active, setActive] = useState(false);
   return (
-    <div>
+    <div className="z-1000">
       <h1
-        className="w-full flex items-center justify-center h-15 hover:bg-sky-600 border-b-1 border-neutral-800 cursor-pointer border-t-1"
+        className="w-full flex items-center justify-center h-15 hover:bg-sky-600 border-neutral-800 cursor-pointer border-t-1 z-100"
         onClick={() => setActive(!active)}
       >
         <IoMdSettings size={20} />

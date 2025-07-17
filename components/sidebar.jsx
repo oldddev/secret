@@ -8,7 +8,7 @@ import Settings from "./settings";
 
 export default function Sidebar() {
   return (
-    <nav className="h-dvh bg-neutral-950 min-w-15 flex flex-col border-r-1 border-neutral-800 justify-between fixed">
+    <nav className="h-dvh bg-neutral-950 min-w-15 flex flex-col border-r-1 border-neutral-800 justify-between fixed z-100">
       <div>
         <Link
           className="w-full flex items-center justify-center h-15 border-b-1 border-neutral-800"
