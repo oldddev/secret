@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.esahubble.org",
       },
+      {
+        protocol: "https",
+        hostname:"i.pinimg.com"
+      },
     ],
   },
 };
