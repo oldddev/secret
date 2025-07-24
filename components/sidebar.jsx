@@ -3,12 +3,15 @@ import { IoGameController } from "react-icons/io5";
 import { MdOutlineHistory } from "react-icons/md";
 import { FaTrophy } from "react-icons/fa6";
 import { GiMoneyStack } from "react-icons/gi";
+
 import Link from "next/link";
 import Settings from "./settings";
 
 export default function Sidebar() {
   return (
-    <nav className="h-dvh bg-neutral-950 min-w-15 flex flex-col border-r-1 border-neutral-800 justify-between fixed z-100 max-h-dvh">
+    <nav
+      className={`h-dvh bg-neutral-950 min-w-15 flex-col border-r-1 border-neutral-800 justify-between fixed z-100 max-h-dvh flex`}
+    >
       <div>
         <Link
           className="w-full flex items-center justify-center h-15 border-b-1 border-neutral-800"

@@ -9,6 +9,7 @@ import { GrAlert } from "react-icons/gr";
 import { TbCoinRupee } from "react-icons/tb";
 import { RiTeamFill } from "react-icons/ri";
 import { IoGameController } from "react-icons/io5";
+import { MdDoNotDisturbAlt } from "react-icons/md";
 
 import { GiDragonShield } from "react-icons/gi";
 
@@ -62,7 +63,7 @@ export default function Post({ data }) {
           <p>{data.content}</p>
           {data.members_joined >= data.max_members && (
             <button className="flex items-center justify-center gap-4 bg-neutral-700 text-neutral-50 mt-5 p-2 rounded-3xl cursor-not-allowed">
-              FULLY JOINED <IoGameController />
+              Max reached <MdDoNotDisturbAlt />
             </button>
           )}
           {data.members_joined < data.max_members && (
