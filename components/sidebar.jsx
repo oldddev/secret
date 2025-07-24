@@ -1,14 +1,14 @@
 import { GiDragonOrb } from "react-icons/gi";
 import { IoGameController } from "react-icons/io5";
-import { GiBroadsword } from "react-icons/gi";
-import { GiBattleAxe } from "react-icons/gi";
-import { RiTeamFill } from "react-icons/ri";
+import { MdOutlineHistory } from "react-icons/md";
+import { FaTrophy } from "react-icons/fa6";
+import { GiMoneyStack } from "react-icons/gi";
 import Link from "next/link";
 import Settings from "./settings";
 
 export default function Sidebar() {
   return (
-    <nav className="h-dvh bg-neutral-950 min-w-15 flex flex-col border-r-1 border-neutral-800 justify-between fixed z-100">
+    <nav className="h-dvh bg-neutral-950 min-w-15 flex flex-col border-r-1 border-neutral-800 justify-between fixed z-100 max-h-dvh">
       <div>
         <Link
           className="w-full flex items-center justify-center h-15 border-b-1 border-neutral-800"
@@ -18,28 +18,28 @@ export default function Sidebar() {
         </Link>
         <Link
           className="w-full flex items-center justify-center h-15 hover:bg-sky-600 border-b-1 border-neutral-950"
-          href={"/match"}
+          href={"/"}
         >
           <IoGameController size={20} />
         </Link>
         <Link
           className="w-full flex items-center justify-center h-15 hover:bg-sky-600 border-b-1 border-neutral-950"
-          href={"/create"}
+          href={"/match"}
         >
-          <GiBroadsword size={20} />
+          <FaTrophy size={20} />
         </Link>
         <Link
           className="w-full flex items-center justify-center h-15 hover:bg-sky-600 border-b-1 border-neutral-950"
-          href={"/battle"}
+          href={"/recent"}
         >
-          <GiBattleAxe size={20} />
+          <MdOutlineHistory size={23} />
         </Link>
 
         <Link
           className="w-full flex items-center justify-center h-15 hover:bg-sky-600 border-b-1 border-neutral-950"
-          href={"/friends"}
+          href={"/balance"}
         >
-          <RiTeamFill size={20} />
+          <GiMoneyStack size={20} />
         </Link>
       </div>
       <Settings />

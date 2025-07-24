@@ -1,6 +1,6 @@
 export default function JoinedMatch({ data }) {
   return (
-    <div className="w-full bg-neutral-900 rounded-xl border-1 border-neutral-800 p-6 flex flex-col gap-2">
+    <div className="w-full bg-neutral-900 rounded-xl border-1 border-neutral-800 p-6 flex flex-col gap-2 max-w-100">
       {/* Check this out */}
       <p>
         Tournament ID:{" "}

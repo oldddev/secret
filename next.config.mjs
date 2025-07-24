@@ -8,7 +8,11 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname:"i.pinimg.com"
+        hostname: "i.pinimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "staticg.sportskeeda.com",
       },
     ],
   },

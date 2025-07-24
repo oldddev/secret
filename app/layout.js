@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className}`}>
         <section className="flex w-screen">
           <Sidebar />
-          <section className="w-full flex flex-col ml-15">
+          <section className="w-full flex flex-col ml-15 overflow-y-scroll">
             <Searchbox />
             {/* CONTINUE FROM HERE */}
 

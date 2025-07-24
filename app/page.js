@@ -1,84 +1,73 @@
 import Post from "@/components/post";
 import { FaPaperPlane } from "react-icons/fa6";
-const shortId = require('shortid');
+const shortId = require("shortid");
 
 const posts = [
   {
     title: "Clash Of Champions",
     hash: shortId.generate(),
     members_joined: Math.floor(Math.random() * 50),
-    max_members: 64,
-    prize:500,
+    max_members: 2,
+    prize: 500,
     content:
       "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
     image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
+      "https://staticg.sportskeeda.com/editor/2020/08/7430d-15967720224804-800.jpg",
   },
   {
     title: "Clash Of Champions",
     hash: shortId.generate(),
     members_joined: Math.floor(Math.random() * 50),
     max_members: 64,
-    prize:500,
+    prize: 500,
     content:
       "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
     image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
+      "https://staticg.sportskeeda.com/editor/2020/08/7430d-15967720224804-800.jpg",
   },
   {
     title: "Clash Of Champions",
     hash: shortId.generate(),
     members_joined: Math.floor(Math.random() * 50),
     max_members: 64,
-    prize:500,
+    prize: 500,
     content:
       "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
     image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
+      "https://staticg.sportskeeda.com/editor/2020/08/7430d-15967720224804-800.jpg",
   },
   {
     title: "Clash Of Champions",
     hash: shortId.generate(),
     members_joined: Math.floor(Math.random() * 50),
     max_members: 64,
-    prize:500,
+    prize: 500,
     content:
       "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
     image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
+      "https://staticg.sportskeeda.com/editor/2020/08/7430d-15967720224804-800.jpg",
   },
   {
     title: "Clash Of Champions",
     hash: shortId.generate(),
     members_joined: Math.floor(Math.random() * 50),
     max_members: 64,
-    prize:500,
+    prize: 500,
     content:
       "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
     image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
+      "https://staticg.sportskeeda.com/editor/2020/08/7430d-15967720224804-800.jpg",
   },
   {
     title: "Clash Of Champions",
     hash: shortId.generate(),
     members_joined: Math.floor(Math.random() * 50),
     max_members: 64,
-    prize:500,
+    prize: 500,
     content:
       "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
     image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
-  },
-  {
-    title: "Clash Of Champions",
-    hash: shortId.generate(),
-    members_joined: Math.floor(Math.random() * 50),
-    max_members: 64,
-    prize:500,
-    content:
-      "Join our free-to-enter game tournament and compete for real cash prizes — no entry fee, just your skills! ",
-    image_link:
-      "https://i.pinimg.com/736x/f4/ce/e5/f4cee58508d2fadd5942fb5df24982e9.jpg",
+      "https://staticg.sportskeeda.com/editor/2020/08/7430d-15967720224804-800.jpg",
   },
 ];
 
