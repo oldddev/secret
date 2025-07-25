@@ -85,6 +85,11 @@ export default function Home() {
             className="w-full bg-neutral-900 h-40 p-5 outline-0 resize-none border-1 border-neutral-800 rounded-t-2xl focus:border-neutral-600"
             placeholder="What are you upto?"
           ></textarea>
+          <input
+            type="text"
+            className="w-full bg-neutral-900 border-1 border-neutral-800 outline-0 p-2 px-5 text-neutral-400 focus:border-neutral-600 mb-0.5 py-4"
+            placeholder="Game Title"
+          />
           <div className="flex justify-between">
             <input
               type="text"

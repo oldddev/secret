@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { FaCheck } from "react-icons/fa6";
 import { RiArrowRightUpLine } from "react-icons/ri";
 import { FaInfoCircle } from "react-icons/fa";
 
